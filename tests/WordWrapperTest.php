@@ -11,7 +11,7 @@ class WordWrapperTest extends \PHPUnit_Framework_TestCase
 
     final public function testWordWrapperShouldComplainWhenGivenNonIntegerAsLimit()
     {
-        $this->expectException(\TypeError::class);
+        $this->expectException(\InvalidArgumentException::class);
 
         new WordWrapper(false);
     }
@@ -33,9 +33,8 @@ class WordWrapperTest extends \PHPUnit_Framework_TestCase
 
         $expected = <<<TXT
 These
- are 
- some 
- 
+are
+some
 words
 TXT;
         self::assertEquals($expected, $actual);
