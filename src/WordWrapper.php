@@ -2,7 +2,7 @@
 
 namespace Potherca\TestWorkshop;
 
-use RopBot\WordWrapInterface;
+use Ropbot\WordWrapInterface;
 
 class WordWrapper implements WordWrapInterface
 {
