@@ -1,6 +1,6 @@
 <?php
 
-namespace RopBot;
+namespace Ropbot;
 
 interface WordWrapInterface
 {
