@@ -1,10 +1,12 @@
 {
     "require": {
+        "php": "^7.0",
         "phpunit/phpunit": "^5.6"
     },
     "autoload": {
         "psr-4": {
-            "Potherca\\TestWorkshop\\" : "src/"
+            "Potherca\\TestWorkshop\\" : "src/",
+            "Ropbot\\" : "src/"
         }
     },
     "autoload-dev": {
