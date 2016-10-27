@@ -7,7 +7,7 @@ use Ropbot\WordWrapInterface;
 class WordWrapper implements WordWrapInterface
 {
 
-    public function __construct($p_max_length = null)
+    public function __construct($limit = null)
     {
     }
 
