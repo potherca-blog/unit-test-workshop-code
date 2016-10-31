@@ -2,7 +2,7 @@
 
 namespace Potherca\TestWorkshop;
 
-use Ropbot\WordWrapInterface;
+use PhpHooligans\Workshop\Tdd\WordWrapInterface;
 
 class WordWrapper implements WordWrapInterface
 {
